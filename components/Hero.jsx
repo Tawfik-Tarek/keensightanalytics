@@ -12,7 +12,7 @@ export default function Hero({ data }) {
       transition={{ duration: 0.7 }}
     >
       <div className="container mx-auto px-6">
-        <h1 className="text-5xl font-extrabold mb-4">{headline}</h1>
+        <h1 className="text-3xl sm:text-5xl font-extrabold mb-4">{headline}</h1>
         <p className="text-xl mb-8 opacity-80">{subheadline}</p>
         <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-full text-white font-semibold">
           {ctaText}
